@@ -50,5 +50,27 @@
         background-position: left center;
         background-size: 20px;
       }
+      .form {
+       text-align: center;
+      }
+      footer{
+        background: grey; 
+        padding: 20px;  
+      }
+      
+      .footer-icon {
+        width: 2em;
+      }
+      .footer-link::after {
+        content: attr(data-name);
+        position: absolute;
+        top: -20px;
+        left: 0;
+        z-index: 20;
+        background-color: antiquewhite;
+      }
+      .last{
+       text-align: center;
+      }
    
       
