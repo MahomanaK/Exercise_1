@@ -1,0 +1,54 @@
+
+    .table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+       
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      .container {
+        text-align: center;
+      }
+      .undermale {
+        background-color: grey;
+      }
+      .overmale {
+        background-color: black;
+        color: white;
+      }
+      .underfemale {
+        background-color: red;
+      }
+      .overfemale {
+        background-color: pink;
+        color:black
+      }
+      .data {
+   padding-left: 650px;
+      }
+      .Males {
+        list-style: none;
+        padding: 10px 30px;
+        background-image: url(../images/Male.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+      }
+      .Females {
+        list-style: none;
+        padding: 10px 30px;
+        background-image: url(../images/Female.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+      }
+   
+      
